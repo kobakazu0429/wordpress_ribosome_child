@@ -11,7 +11,7 @@
 	<footer id="colophon" role="contentinfo">
 		<div class="site-info">
 			<div class="credits credits-left"></div>
-			<div class="credits credits-center"><?php echo wp_kses_post(get_theme_mod('ribosome_footer_text_center', __('copyright © 高専生の備忘録 all rights reserved.', 'ribosome'))); ?></div>
+			<div class="credits credits-center"><?php echo wp_kses_post(get_theme_mod('ribosome_footer_text_center', __('copyright © NAME all rights reserved.', 'ribosome'))); ?></div>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
