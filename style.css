@@ -1,0 +1,105 @@
+@charset "UTF-8";
+/*
+Template:ribosome
+Theme Name: Ribosome_child
+Author: kazu
+Version: 1.0
+License: テーマのライセンス
+License URI: テーマのライセンスのURI
+*/
+/*definition*/
+/*web_font-----------------------------------------------------------------------------------*/
+/*en*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/*jp*/
+@import url("https://fonts.googleapis.com/earlyaccess/notosansjp.css");
+/*icon*/
+@import url("icomoon/style.css");
+/*header-------------------------------------------------------------------------------------*/
+.blog-info-sin-imagen h1.site-title a {
+  color: #F3F3F3;
+  font-family: "Roboto", "Noto Sans JP", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.blog-info-sin-imagen h2 {
+  color: #F3F3F3;
+  font-family: "Roboto", "Noto Sans JP", "Avenir", "Helvetica Neue", "Helvetica", "Arial", "Hiragino Sans", "ヒラギノ角ゴシック", YuGothic, "Yu Gothic", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic";
+  font-weight: 100;
+  font-size: 15px;
+}
+
+/*body---------------------------------------------------------------------------------------*/
+/*top----------------------------------------------------------------------------------------*/
+.entry-header h2.entry-title a {
+  font-size: 2.5rem;
+}
+
+.entry-header h2.entry-title {
+  /*background-color: #00BCD5;*/
+  display: inline-block;
+  position: relative;
+  padding-left: 2.5rem;
+  /*アイコン分のスペース*/
+  line-height: 1.4;
+}
+
+.entry-header h2.entry-title:before {
+  font-family: FontAwesome;
+  /*忘れずに*/
+  content: "\f138";
+  /*アイコンのユニコード*/
+  position: absolute;
+  /*絶対位置*/
+  font-size: 2.5rem;
+  /*サイズ*/
+  left: 0;
+  /*アイコンの位置*/
+  top: 0;
+  /*アイコンの位置*/
+  color: #00BCD5;
+  /*アイコン色*/
+}
+
+/*single-------------------------------------------------------------------------------------*/
+/*sidebar------------------------------------------------------------------------------------*/
+/*profile------------------------------------------------------------------------------------*/
+div.textwidget.custom-html-widget i.fa.fa-twitter-square, div.textwidget.custom-html-widget i.icon-feedly-o {
+  font-size: 3rem;
+  color: #00BCD5;
+}
+
+div.textwidget.custom-html-widget p {
+  font-size: 16px;
+}
+
+div.textwidget.custom-html-widget.profilepic {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.block {
+  padding: 20px;
+  background: #fff;
+  border: 4px #66cdaa solid;
+  position: relative;
+  z-index: 10;
+}
+
+.block:before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  margin: 3px;
+  border: 2px #7accb0 solid;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: block;
+  z-index: -10;
+}
+
+/*# sourceMappingURL=style.css.map */
