@@ -58,6 +58,11 @@ $submenu-profile    : 'div.textwidget.custom-html-widget';
   color: $color-base; /*アイコン色*/
 }
 
+.wrapper-excerpt-thumbnail img.wp-post-image {
+  width: 150px;
+  height: 100px;
+}
+
 /*single-------------------------------------------------------------------------------------*/
 /*sidebar------------------------------------------------------------------------------------*/
 /*profile------------------------------------------------------------------------------------*/
@@ -70,12 +75,48 @@ $submenu-profile    : 'div.textwidget.custom-html-widget';
   font-size: 16px;
 }
 
-#{$submenu-profile}.profilepic{
+img.profilepic{
   border-radius: 50%;
   width: 100%;
   height: auto
 }
 
+/*content------------------------------------------------------------------------------------*/
+
+.entry-content h1{
+  position: relative;
+  background: #ffd98a;
+  padding: 2px 5px 2px 25px;
+  font-size: 20px;
+  color: #474747;
+  border-radius: 0 10px 10px 0;
+}
+
+.entry-content h1:before {
+  font-family: FontAwesome;
+  content: "\f121";
+  display: inline-block;
+  line-height: 40px;
+  position: absolute;
+  padding: 0em;
+  color: white;
+  background: #ffa337;
+  font-weight: 750;
+  width: 40px;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  left: -1.35em;
+  top: 50%;
+  -moz-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  border: solid 3px white;
+  border-radius: 50%;
+}
+
+/*
 .block {
     padding: 20px;
     background: #fff;
@@ -97,3 +138,5 @@ $submenu-profile    : 'div.textwidget.custom-html-widget';
     display: block;
     z-index: -10;
 }
+
+*/
